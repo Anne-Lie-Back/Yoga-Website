@@ -1,0 +1,166 @@
+
+
+
+.grid_wrapper_shop{
+    display:grid;
+    height:auto;
+    max-width:100%;
+    margin:3.5rem 2rem;
+    grid-gap:2rem;
+    grid-column: 1fr;
+    grid-row:1fr;
+    grid-template-columns: 13rem 25% 25% 25%;
+    grid-template-rows: auto;
+    
+    grid-template-areas:
+    "butik_nav butik_info butik_info butik_info" 
+    "butik_nav item1 item2 item3" 
+    "butik_nav item4 item5 item6"
+    "butik_nav kundvagn kundvagn kundvagn"
+     ;
+}
+
+
+/* --- SIDNAVIGATION BUTIK ---*/
+
+.butik_nav{
+    grid-area:butik_nav;
+    background:#00000090;
+    border-radius: 25px;
+}
+
+.mobile_butik_nav{
+    display:none;
+}
+
+.butik_nav ul{
+    list-style-type: none;
+    color:white;
+    padding:0;
+}
+
+.butik_nav li{
+    
+    margin:2rem;
+    transition:color 0.3s ease-in-out;
+}
+
+.butik_nav li:hover{
+    color:orange;
+    cursor: pointer;
+}
+
+
+
+#chosen{  /* --- Id för aktuell meny-sida --- */
+    color:orange;
+    font-weight:bold;
+}
+
+
+.butik_info{
+    grid-area:butik_info;
+    background:#00000090;
+    color:white;
+    border-radius: 25px;
+}
+
+.butik_info_txt{
+    margin:2rem;
+}
+
+.butik_info_txt h3{
+    margin:0 0 1rem 0;
+}
+
+
+
+/* --- Containers för BUTIKS-VAROR --- */
+
+.item1{
+    grid-area:item1;
+    background:white;
+}
+
+.item2{
+    grid-area:item2;
+    background:white;
+}
+
+.item3{
+    grid-area:item3;
+    background:white;
+}
+
+.item4{
+    grid-area:item4;
+    background:white;
+}
+
+.item5{
+    grid-area:item5;
+    background:white;
+}
+
+.item6{
+    grid-area:item6;
+    background:white;
+    
+}
+
+/* ---- styling-class gemensam för alla BUTIKS-VAROR --- */
+
+.flex_items{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction:column;
+    padding:1.5rem 1rem;
+    border-radius: 25px;
+    box-shadow: 1px 1px 15px black;
+    transition:color 0.3s ease-in-out;
+}
+
+.flex_items:hover{
+    cursor: pointer;
+    color:orange;
+}
+
+.flex_items img{
+    margin-bottom: 1rem;
+    width:100%;
+    height:auto;
+}
+
+.flex_items p{
+    margin:0.3rem 0;
+}
+
+/* --- KUNDVAGN ---*/
+
+.kundvagn{
+    grid-area:kundvagn;
+    background:black;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+    font-size:1.2rem;
+}
+
+.kundvagn_txt{
+    display:flex;
+    flex-direction: row;
+    transition:color 0.3s ease-in-out;
+}
+
+.kundvagn i{
+    display:flex;
+    align-items: center;
+    margin: 0 0.5rem 0 1rem;
+    font-size:1.7rem;
+}
+
+.kundvagn_txt:hover{
+    color:orange;
+    cursor: pointer;
+}

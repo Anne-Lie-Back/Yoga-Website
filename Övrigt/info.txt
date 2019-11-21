@@ -1,0 +1,27 @@
+
+
+Vi har valt att modernisera Göteborgs yogacentrums huvudsida och butik-sida.
+
+https://www.yogacentrum.com
+
+https://butik.yogacentrum.com/
+
+Vi valde att göra om designen på dessa sidor från grunden då huvudsidan saknade responsivitet och butikssidans design 
+saknade känslan av att höra ihop med dess huvudsida.
+
+En av de avgränsningar vi valde att göra är även en av de saker vi anser vara en förbättring av hemsidan. Minskningen av 
+text på huvudsidan och överlag minskningen av undersidor/nav-länkar i huvudmenyn. När vi för första gången öppnade sidan översköljdes 
+vi av mycket textinformation som kan verka avskräckande för användaren att läsa (Vem har tid att läsa en novell när hen 
+bara vill boka ett yogapass?). Vi kände att många av undersidorna egentligen kunde ligga i samma undersida (dvs kändes som mycket upprepningar).
+Vi valde alltså färre nav-länkar, men med mer och hypotetiskt bättre strukturerad information, för att användaren ska slippa skumma igenom en
+novell med text för att hitta det hen söker.
+
+Vi valde också att inte använda oss av några bilder mer än bakgrundsbilden på huvudsidan för att vi ville hålla förstasidan så ren som möjligt. 
+Hypotetiskt sett tänker vi oss att undersidorna skulle innehålla mer bilder och deras sociala medier finns lätt tillgängligt för den som vill 
+beskåda uppdaterade bilder från t ex yogaklasser.
+
+Vi har också valt att hålla kommentarerna i filerna på svenska då det är svensk text på sidan.
+
+Anne-Lie Bäck och Anton Öhman
+FED19G
+

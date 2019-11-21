@@ -1,0 +1,64 @@
+
+/*---- MAIN CONTENT index-sida----*/
+
+.maincontainer {
+    grid-template-columns: auto;
+    height: auto;
+    max-width: 100%;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-areas:
+    ". . newscontainer ."
+    "maintextcontainer maintextcontainer maintextcontainer maintextcontainer"
+}
+
+/*---- VÄLKOMNSTEXT----*/
+
+.maintextcontainer {
+    grid-area: maintextcontainer;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 0 solid;
+    border-radius: 10px;
+    padding: 0.4rem;
+    margin-top: 6rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05rem;
+}
+
+.bokayoga_mobile{
+    display:none;
+}
+
+/*---- NYHETER ----*/
+
+.newscontainer {
+    grid-area: newscontainer;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 0 solid;
+    border-radius: 10px;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    max-width: 20rem;
+}
+
+.newscontainer ul {
+    margin-left: -1rem;
+    margin-top: 0;
+}
+
+.newscontainer li {
+    list-style-type: circle;
+    margin-bottom: 1.3rem;
+}
+
+.newscontainer h3 {
+    margin: 0.3rem;
+    padding: 0;
+    color: orange;
+}
